@@ -1,0 +1,111 @@
+(footprint "BH-18650-B6AA002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "18650 SMD holder; pad span from C7525438 listing, locating-post holes not drawn, +/- end not verified")
+	(property "Reference" "REF**"
+		(at 0 -11.6 0)
+		(layer "F.SilkS")
+		(uuid "3cd4d4e3-d3af-4dd8-8d0f-26512f3b6a62")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BH-18650-B6AA002"
+		(at 0 11.6 0)
+		(layer "F.Fab")
+		(uuid "bcffa9e6-a1f8-4957-9478-4ad07df5af77")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3497523-832d-46cb-a4da-2186ca084200")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "18650 SMD holder; pad span from C7525438 listing, locating-post holes not drawn, +/- end not verified"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63297ea1-52cf-400c-a252-7b0d29717a6c")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -38.55 -10.35)
+		(end 38.55 10.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "140e992f-1276-4737-80a4-3f35bdf6f529")
+	)
+	(fp_rect
+		(start -45.35 -10.6)
+		(end 45.35 10.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4d122642-42c1-4906-adc5-c5bc39cd4c71")
+	)
+	(fp_rect
+		(start -37.3 -10.45)
+		(end 37.3 10.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "283527d5-8686-4707-bbf3-809ca45d930d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "127c328b-c1ed-430e-9fc7-a90cf7062434")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1_+" smd rect
+		(at -41.3 0)
+		(size 7.6 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c601327-34fb-434e-85c1-4c03662efef0")
+	)
+	(pad "2_-" smd rect
+		(at 41.3 0)
+		(size 7.6 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d7543d80-666d-4c8b-8a5a-aa6f716cf9b9")
+	)
+	(embedded_fonts no)
+)

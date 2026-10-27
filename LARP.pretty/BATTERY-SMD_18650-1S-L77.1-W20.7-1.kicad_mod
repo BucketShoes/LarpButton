@@ -1,0 +1,141 @@
+(footprint "BATTERY-SMD_18650-1S-L77.1-W20.7-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BH-18650-B6AA002 (C7525438); pads from EasyEDA/LCSC footprint; + on pad 2")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "af6a20ce-5f0b-4a87-bd84-4f6006c839f9")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BATTERY-SMD_18650-1S-L77.1-W20.7-1"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "b0afd98a-fe3c-4d1c-ae69-f53107e60ca1")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfdd717f-34cc-47fb-a986-40c409797663")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BH-18650-B6AA002 (C7525438); pads from EasyEDA/LCSC footprint; + on pad 2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bdcbc14-5ce5-45fb-98ed-22ca245ce999")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10.35 -38.55)
+		(end 10.35 38.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "81da108b-25d6-43ad-89a5-b55484ac697e")
+	)
+	(fp_rect
+		(start -10.6 -44.4)
+		(end 10.6 44.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f77dc3cb-79f1-43f2-b59b-9d0eedab0909")
+	)
+	(fp_rect
+		(start -10.45 -37.3)
+		(end 10.45 37.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "54a92384-0997-49a4-ba6d-14e0b3670c72")
+	)
+	(fp_line
+		(start 7.23 30)
+		(end 9.77 30)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9756896f-bb35-4ed1-9ee6-9c242945e5c6")
+	)
+	(fp_line
+		(start 8.5 28.73)
+		(end 8.5 31.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fdb9c77-43e8-42d3-8fad-12977436b57c")
+	)
+	(fp_line
+		(start 7.23 -30)
+		(end 9.77 -30)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8843a10b-d725-495d-8f92-4f2306c71cfb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8e0c7152-42cf-49df-926d-3c6c50bd0e5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1_-" smd rect
+		(at 0 -41.3131)
+		(size 7.62 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e99db10b-b72f-44fa-bf67-95ee38ea6c3e")
+	)
+	(pad "2_+" smd rect
+		(at 0 41.3131)
+		(size 7.62 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5fb9869-ffbe-4235-82ce-5939c92c9904")
+	)
+	(embedded_fonts no)
+)
